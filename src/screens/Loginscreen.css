@@ -1,0 +1,93 @@
+.Loginscreen{
+    position: relative;
+    height: 100%;
+    background: url("C:\Users\HP\OneDrive\Desktop\minor project\netflix-clone\src\rDJegQJaCyGaYysj2g5XWY.jpg")  
+    center no-repeat; 
+    background-size: cover;
+    /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fnetflix-background&psig=AOvVaw3o-2auTzvwFakc8fJoJTuU&ust=1705381460257000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIC8x5XP3oMDFQAAAAAdAAAAABAI"
+    )center no-repeat; */
+    background-size: cover;
+   
+}
+.login_screen_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.loginscreen_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.login_screen_gradient{
+    /* background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fnetflix-background&psig=AOvVaw3o-2auTzvwFakc8fJoJTuU&ust=1705381460257000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIC8x5XP3oMDFQAAAAAdAAAAABAI"
+    )center no-repeat; */
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(
+        to top,
+        rgba (0,0,0, 0.8) 0,
+        rgba (0,0,0,0) 60%,
+        rgba (0,0,0,0) 100%);
+}
+.login_screen_body > h1{
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 20px;
+    
+}
+.login_screen_body > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.login_screen_body > h3 {
+    font-size: 1.3rem;
+    font-weight: 40;
+}
+.login_screen_body{
+    color: #fff;
+    z-index: 1;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.login_screen_input > form > input {
+    padding:  10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.login_screen_input{
+    margin: 20px;
+}
+.login_screen_getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}

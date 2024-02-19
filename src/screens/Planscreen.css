@@ -1,0 +1,15 @@
+.price{
+    color: red;
+    justify-content: space-between;
+}
+.price_content{
+    color: white;
+    /* padding: 10px 20px; */
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-top: 0px;
+    position: top;
+    text-align: center;
+    padding-top: 0%;
+}
